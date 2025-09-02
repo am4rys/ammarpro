@@ -1,0 +1,109 @@
+/* ===== تصميم عام ===== */
+body {
+  margin: 0;
+  font-family: "Tahoma", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* ===== الشريط العلوي ===== */
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 15px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== قسم البداية ===== */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #2980b9, #3498db);
+  color: white;
+}
+.hero h2 {
+  margin: 0 0 15px;
+  font-size: 28px;
+}
+
+/* ===== الأقسام ===== */
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.section h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #2c3e50;
+}
+
+/* ===== شبكة البطاقات ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* ===== تسجيل الدخول ===== */
+.login-box {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #2980b9;
+}
+
+/* ===== التذييل ===== */
+footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
